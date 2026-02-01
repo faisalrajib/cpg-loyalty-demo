@@ -1,0 +1,15 @@
+pycache/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.log
+airflow/logs/
+airflow/dags/.pyc
+dbt/logs/
+dbt/target/
+models/
+data/processed/

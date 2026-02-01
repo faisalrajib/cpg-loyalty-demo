@@ -1,0 +1,20 @@
+name: 'cpg_loyalty'
+version: '1.0.0'
+config-version: 2
+profile: 'cpg_loyalty'
+model-paths: ["models"]
+analysis-paths: []
+test-paths: []
+seed-paths: []
+macro-paths: []
+snapshot-paths: []
+target-path: "target"
+clean-targets:
+
+"target"
+"dbt_packages"
+
+models:
+cpg_loyalty:
+marts:
++materialized: table

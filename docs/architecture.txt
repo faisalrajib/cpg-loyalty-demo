@@ -1,0 +1,8 @@
+Architecture (2026 style)
+Events → Kafka simulation → PostgreSQL raw
+↓
+Airflow DAG
+/     |     
+dbt Core   Python   Superset / Streamlit (future)
+↓
+Curated marts + features → Recommender (daily batch)
